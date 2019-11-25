@@ -24,3 +24,6 @@ echo "Status : Pass"
 
 python load/test_9.py
 echo "Status : Pass"
+
+python load/tests10-rest/test_9.py
+echo "Status : Fail"

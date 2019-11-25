@@ -1,9 +1,9 @@
 from selenium import webdriver
 import time
-print("Test 8: Check 15 folders can be opened")
+print("Test 10: Check 75 folders can be opened")
 
 driver = webdriver.Firefox(executable_path=r'/home/tarun/Desktop/testing/geckodriver-v0.25.0-linux64/geckodriver')
-n = 3
+n = 25
 
 for i in range(n):
     driver.get("http://localhost:8000/fs/home/tarun/Desktop/testing/performance/tests10-rest")
